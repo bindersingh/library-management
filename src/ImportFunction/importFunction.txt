@@ -1,0 +1,23 @@
+constructor()
+{
+  super();
+  db.open();
+}
+componentDidMount()
+{
+  this.x();
+}
+async x()
+{
+  for(var i = 0; i < jsonData.length; i++) {
+  var obj = jsonData[i];
+
+  try {
+     await db.members.add(obj);
+     console.log("wait please "+i);
+  }
+   catch (e) {
+      console.log("Error");
+      }
+  }
+}
