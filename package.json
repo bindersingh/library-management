@@ -7,7 +7,7 @@
     "bootstrap": "^4.3.1",
     "concurrently": "^4.1.0",
     "cron": "^1.7.1",
-    "dexie": "^2.0.4",
+    "dexie": "^3.2.2",
     "electron": "^4.1.4",
     "electron-builder": "^20.39.0",
     "electron-is-dev": "^1.0.1",
